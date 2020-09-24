@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'Vibes';
+  src: url('fonts/GreatVibes-Regular.ttf');
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* NAV BAR */
+h1 {
+  
+  font-family: 'Vibes', sans-serif;
+}
+a{
+  text-decoration: double;
+  color: rgb(0, 0, 0);
+}
+ul{
+  list-style: none;
+}
+.main-head{
+  box-shadow: 2px 11px 11px rgba(10, 9, 9, 0.1);
+  background-color: white;
+  z-index: 2;
+  /* stick to screen when scrolling, like nav bar */
+  position: sticky; 
+  top: 0;
+}
+nav{
+  width:90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  min-height: 10vh;
+  padding: 2rem 1;
+  
+}
+/* h1 */
+#logo {
+  flex: 2 0 20rem;
+}
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  flex: 1 1 10rem;
+}
